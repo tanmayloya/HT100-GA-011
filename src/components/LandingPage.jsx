@@ -69,12 +69,12 @@ function LandingPage() {
     <div className="min-h-screen overflow-x-hidden relative">
       {/* Particle Background */}
       <Particles
-        particleCount={500}
+        particleCount={1800}
         particleSpread={15}
         speed={0.1}
         particleColors={isDarkMode ? ['#8fb77a', '#a8c997', '#6db35f', '#7DA66A'] : ['#4E6C3F', '#5f7d50', '#7DA66A', '#6db35f']}
         alphaParticles={false}
-        particleBaseSize={200}
+        particleBaseSize={350}
         sizeRandomness={2}
         cameraDistance={12}
         disableRotation={false}

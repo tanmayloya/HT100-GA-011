@@ -14,6 +14,7 @@ A modern photo-to-story generator that transforms your image albums into creativ
 ## 🎨 Design Philosophy
 
 Inspired by modern productivity tools and e-readers:
+
 - **Playfair Display** serif font for story text (book-like feel)
 - **Inter** sans-serif for UI elements (clean & readable)
 - Warm stone palette with coral/teal accents
@@ -52,6 +53,7 @@ npm run build
 ## 🔌 Backend Setup
 
 The frontend expects a backend API at `http://localhost:8000/api/generate-story` that accepts:
+
 - `files`: Array of images (multipart/form-data)
 - `genre`: String (genre selection)
 - `characters`: String (character descriptions)
